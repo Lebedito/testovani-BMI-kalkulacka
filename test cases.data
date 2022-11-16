@@ -1,0 +1,27 @@
+Hmotnost musí být číslo v rozsahu 30 - 250 kg
+Výška musí být číslo v rozsahu 100 - 220 cm
+Rok musí být v rozsahu od 1900 do 2004
+
+testovány obě varianty (Jsem žena + Jsem muž)
+
+
+in: Vaše hmotnost = 29 kg; out: chybová hláška
+in: Vaše hmotnost = 30 kg; out: OK
+in: Vaše hmotnost = 250 kg; out: OK
+in: Vaše hmotnost = 251 kg; out: chybová hláška
+in: Vaše hmotnost = nevyplněno; out: chybová hláška
+in: Vaše hmotnost = e; out: chybová hláška (pozn. jiné písmenu nelze zadat)
+in: Vaše výška = 99 cm; out: chybová hláška
+in: Vaše výška = 100 cm; out: OK
+in: Vaše výška = 220 cm; out: OK
+in: Vaše výška = 221 cm; out: chybová hláška
+in: Vaše výška = nevyplněno; out: chybová hláška
+in: Vaše výška = e; out: chybová hláška
+in: Váš rok narození = 1899; out: chybová hláška
+in: Váš rok narození = 1900; out: OK
+in: Váš rok narození = 2004; out: OK
+in: Váš rok narození = 2005; out: chybová hláška
+in: Váš rok narození = nevyplněno; out: chybová hláška
+in: Váš rok narození = e; out: chybová hláška
+
+
